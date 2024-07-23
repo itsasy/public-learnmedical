@@ -1,0 +1,156 @@
+.sidebar-nav ul .sidebar-item .sidebar-link {
+    opacity: 1 !important;
+}
+#main-wrapper[data-layout=horizontal] .topbar .top-navbar .navbar-header[data-logobg=skin1], #main-wrapper[data-layout=vertical] .topbar .top-navbar .navbar-header[data-logobg=skin1] {
+    background: #42baff;
+}
+#main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link.active, #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link.active {
+    color: #42b9fb;
+}
+#main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link.active .feather, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link.active i, #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link.active .feather, #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link.active i {
+    color: #42b9fb;
+}
+#main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link:hover .feather, #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin6] .sidebar-nav ul .sidebar-item .sidebar-link:hover .feather {
+    color: #42b9fb;
+}
+.btn-primary {
+    box-shadow: 0px 11px 15px rgb(54 153 255 / 50%);
+}
+li.sidebar-item a {
+    font-size: 15px;
+}
+.left-sidebar, .topbar {
+    box-shadow: 7px 15px 35px 0 rgb(88 175 240 / 10%);
+}
+.card-body {
+    box-shadow: 7px 15px 35px 0 rgb(88 175 240 / 10%);
+
+}
+.border-radius-30{
+    border-radius:30px;
+}
+.page-wrapper {
+    background: #F8FBFB;
+}
+table.dataTable thead th, table.dataTable thead td {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.3) !important;
+}
+a {
+    color: #42b9fb;
+    text-decoration: none;
+}
+.form-control {
+    padding: 0.6rem 0.75rem;
+ 
+}
+.form-select {
+    padding:  0.6rem 2.25rem  0.6rem 0.75rem;
+
+}
+table.dataTable.no-footer {
+    border-bottom: 0px solid rgba(0, 0, 0, 0.1) !important;
+}
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #42b9fb;
+    border-color: #42b9fb;
+}
+button.btn.btn-light {
+    box-shadow: 0px 11px 15px rgb(206 206 206 / 50%);
+}
+.bootstrap-switch-container {
+    width: 217px !important;
+}
+.wizard > .content {
+    background: #fff !important;
+    border-radius: 30px  !important;
+    box-shadow: 7px 15px 35px 0 rgb(88 175 240 / 10%);
+
+}
+.wizard > .content > .body label.error {
+    color: #f64e60 !important;
+    display: inline-block;
+    margin-left: 0px !important;
+}
+.wizard > .content > .body input.error {
+    background: rgb(255, 255, 255) !important;
+    color: #f64e60 !important;
+}
+
+#cloned_lesson .lesson_content {
+    margin-top: 30px;
+    border: 1px dashed #e5e5e5cc;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.convo_div {
+    border: 1px dashed #e5e5e5cc;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.convo_div hr {
+    margin: 3rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 2px dotted #ccc;
+    opacity: 1;
+}
+a#add_convo {
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.errors{
+    display: block !important; 
+    width: 100% !important;
+}
+
+a.navbar-brand  img {
+    border-radius: 0px;
+}
+.sidebar-nav ul .sidebar-item .sidebar-link .feather {
+    border-radius: 0px !important;
+    fill: white !important;
+}
+li.nav-item.dropdown a.dropdown-toggle img {
+    width: 45px;
+}
+svg{border-radius:0px;}
+
+.wizard > .steps > ul > li {
+    width: 33% !important;
+}
+.wizard > .steps .current a, .wizard > .steps .current a:hover, .wizard > .steps .current a:active {
+    background: #42b9fb !important;
+    color: #fff !important;
+    cursor: default !important;
+}
+.wizard > .steps .done a, .wizard > .steps .done a:hover, .wizard > .steps .done a:active {
+    background: #d2d4d5 !important;
+    color: #fff;
+}
+.wizard.vertical > .steps > ul > li {
+    float: none;
+    width: 100% !important;
+}
+.user-pic img {
+    width: 40px;
+}
+
+
+.field_icon.toggle-password {  bottom: auto;  top: 16px;}
+
+
+
+@media (max-width: 768px){
+.nav-link:hover::before,  .nav-link.active:after { display: none; }
+.landing-page-nav a.nav-link.px-4 {font-size: 18px; text-align: center; }
+.landing-page-nav ul.navbar-nav {text-align: center; }
+.landing-page-nav ul.navbar-nav button { margin-top: 10px !important; margin-bottom: 10px !important; }
+.navbar-toggler-icon {line-height: 1.5em; }
+}
